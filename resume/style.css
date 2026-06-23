@@ -1,0 +1,56 @@
+/*Styles for my resume*/
+
+/*text on the page*/
+BODY {
+  font-family: "Open Sans", Arial, sans-serif;
+  color:#444;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+/*My name at the top*/
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #33485e;
+}
+
+/*My title (Journalism student)*/
+strong {
+    color: #33485e;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+/*Experience title, Education title, Skills title*/
+h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #33485e;
+    color: #fff;
+}
+
+/*Job titles*/
+h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+/*Place of employment*/
+h4 {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+/*Dates working there*/
+h5 {
+    font-weight: 400;
+    font-size: 1em;
+    font-style: italic;
+}
+
+/*Contact info, Education, Skills */
+ul {
+font-size: 1em;
+}
