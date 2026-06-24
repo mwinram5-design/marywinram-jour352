@@ -8,23 +8,39 @@ BODY {
   font-weight: 400;
 }
 
+#container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+padding-bottom: 50px;
+}
+
 /*My name at the top*/
-h1 {
+#name {
     font-size: 3em;
     text-transform: uppercase;
     text-align: center;
-    color: #33485e;
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
 }
 
 /*My title (Journalism student)*/
-strong {
+#title {
     color: #33485e;
     text-transform: uppercase;
     font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
 }
 
 /*Experience title, Education title, Skills title*/
-h2 {
+.sectionheader {
+    margin: 20px 0px 10px;
+    width: 70%;
+    min-width: 300px;
     font-size: 1.5em;
     text-transform: uppercase;
     background-color: #33485e;
@@ -32,25 +48,53 @@ h2 {
 }
 
 /*Job titles*/
-h3 {
+.jobtitle {
     font-weight: 600;
     font-size: 1.5em;
 }
 
 /*Place of employment*/
-h4 {
+.organization {
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 /*Dates working there*/
-h5 {
+.date {
     font-weight: 400;
     font-size: 1em;
     font-style: italic;
+    margin: 2px 0px 0px 0px;
+}
+
+.description {
+    margin: 10px 0px;
 }
 
 /*Contact info, Education, Skills */
-ul {
+.menu {
 font-size: 1em;
+text-align: center;
+padding: 0px;
+margin: 0px;
+list-style-type: none;
+}
+
+.menu li {
+display: inline;
+}
+
+#degrees {
+    margin: 5px 0px 0px 0px;
+}
+
+#do {
+margin: 5px 0px 0px 0px;
+}
+
+.top {
+    width: 60%;
+    min-width: 300px;
+    margin:0 auto;
+    margin-bottom: 30px;
 }
