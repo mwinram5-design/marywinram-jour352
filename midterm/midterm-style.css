@@ -1,0 +1,156 @@
+.banner {
+    background-color: #415D3E;
+    width: 100%;
+    color: #DBDBD0;
+    text-align: center;
+    height: 70px;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    padding-top:-10px;
+    padding-bottom:10px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.golfball {
+    color: #DBDBD0;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 3px;
+    font-size: 40px;
+}
+
+.headline {
+  font-family: "DM Serif Display", serif;
+  font-weight: 900;
+  font-size: 40px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.allcontent {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+}
+
+.subheading {
+    color: #415D3E;
+    font-family: "Libertinus Serif", serif;
+    font-size: 30px;
+    background-color:#DBDBD0;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.intro {
+    font-style: italic;
+    padding-top: 10px;
+    font-size:17px;
+}
+/* The sentence that previews the article, comes directly after the headline. */
+
+.author{
+    font-weight: 900;
+    font-size: 20px; 
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.date{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.styledline {
+   background-color: #943232;
+   width: 100%;
+   height: 5px;
+   margin-top: 10px;
+}
+.styledline2 {
+   background-color: #943232;
+   width: 100%;
+   height: 5px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+/* The red lines at the top and botom of the page.*/
+
+.byline {
+    font-family: "DM Serif Display", serif;
+    margin: auto;
+    font-size:18px;
+    color: #943232;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+} 
+/*All images*/
+
+.img1 {
+    display: block;
+    width: 150%;
+    max-width: none;
+    margin-left: -25%;
+}
+
+.verticalpic {
+   width: 70%;
+}
+
+.pullquote {
+    float: left;
+    width: 200px;
+    margin: 10px 20px 10px 10px;
+    font-style: italic;
+    font-family: "DM Serif Display", serif;
+    font-size: 30px;
+    font-weight: 900;
+    color:#943232;
+}
+
+blockquote {
+    margin: 0;
+}
+
+.relstories {
+    color:#943232;
+    font-family: "Libertinus Serif", serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+/*Related stories section at the bottom of the page.*/
+
+ul {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.caption1 {
+    font-size: 11px;
+    margin-left: -25%;
+}
+
+.caption3{
+    margin-left: 15%;
+}
+
+figcaption {
+    font-size: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
